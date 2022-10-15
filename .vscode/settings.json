@@ -1,0 +1,43 @@
+{
+    "[latex]": {
+        "editor.defaultFormatter": "James-Yu.latex-workshop"
+    },
+    "editor.wordWrap": "on",
+    "files.autoSave": "onFocusChange",
+    "files.autoSaveDelay": 150000,
+    "github.copilot.enable": {
+        "latex": false
+    },
+    "latex-workshop.latex.recipes": [
+        { "name": "Build", "tools": ["XeTeX"] },
+        {
+            "name": "Build (bib)",
+            "tools": ["XeTeX", "BibTeX", "XeTeX", "XeTeX"]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "XeTeX",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-shell-escape",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "BibTeX",
+            "command": "bibtex",
+            "args": ["%DOCFILE%"]
+        }
+    ],
+    "latex-workshop.latexindent.args": ["-w", "%DOCFILE%"],
+    "latex-workshop.latexindent.path": "latexindent",
+    "latex-workshop.linting.run": "onType",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-utilities.countWord.args": ["%DOCFILE%"],
+    "latex-utilities.countWord.format": "${words} Words in Total, ${wordsBody} Words in Body",
+    "latex-utilities.countWord.path": "texcount"
+}
