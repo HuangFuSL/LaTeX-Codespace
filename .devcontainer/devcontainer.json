@@ -27,6 +27,8 @@
         "editor.wordWrap": "on",
         "files.autoSave": "onFocusChange",
         "files.autoSaveDelay": 150000,
+        "workbench.colorTheme": "Material Theme Ocean",
+        "workbench.iconTheme": "material-icon-theme",
         // Latex settings
         "latex-workshop.linting.chktex.enabled": true,
         "latex-workshop.latex.clean.subfolder.enabled": true,
