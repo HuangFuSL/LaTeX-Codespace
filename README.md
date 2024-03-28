@@ -20,6 +20,8 @@ Submit an issue if you believe an extension is essential to this environment.
 
 ### Extensions Included
 
+* [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
+* [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
 * [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
 * [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 * [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
