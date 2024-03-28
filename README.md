@@ -32,7 +32,6 @@ Submit an issue if you believe an extension is essential to this environment.
 ### Additional Packages
 
 * libfont - required by XeLaTeX
-* Python 3
 
 ## Customize
 
